@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a herf="https://www.w3schools.com">This is a link</a>
+
+    <img src="w3schools.jpg" alt="W3Schools.com" width="400" hight="500">
+
+    <h1>My First Heading</h1>
+
+    <p>My first paragraph.</p>
+
+    ------> HTML is Not Case Sensitive
+
+HTML Attributes
+
+    ------>All HTML elements can have attributes
+    ------>Attributes provide additional information about elements
+    ------>Attributes are always specified in the start tag
+    ------>Attributes  usually come in name/value pairs like: name="value"
+
+
+    1. Absolute URL - Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg".
+
+    Notes: External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.
+
+    2. Relative URL - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".
+
+    Tip: It is almost always best to use relative URLs. They will not break if you change domain.
+
+
+
+<p style="color: blue;">KBVD</p>
+
+Chapter Summary
+
+    All HTML elements can have attributes
+    The href attribute of <a> specifies the URL of the page the link goes to
+    The src attribute of <img> specifies the path to the image to be displayed
+    The width and height attributes of <img> provide size information for images
+    The alt attribute of <img> provides an alternate text for an image
+    The style attribute is used to add styles to an element, such as color, font, size, and more
+    The lang attribute of the <html> tag declares the language of the Web page
+    The title attribute defines some extra information about an element
+
+HTML Headings
+    HTML headings are defined with the to tags.
+
+<h1> defines the most important heading. </h1> defines the least important heading.
+
+Bigger Headings
+    Each HTML heading has a default size. However, you can specify the size for any heading with the style attribute, using the CSS font-size property:
+    
+HTML Paragraphs
+    The HTML <p> element defines a paragraph.
+    
+    A paragraph always starts on az new line, and browsers automatically add some white space (a margin) before and after a paragraph.
+
+HTML Display
+    You cannot be sure how HTML will be displayed.
+    
+    Large or small screens, and resized windows will create different results.
+    
+    With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.
+    
+    The browser will automatically remove any extra spaces and lines when the page is displayed:
+
+ex:
+
+<p>
+    This paragraph
+    contains a lot of lines
+    in the source code,
+    but the browser
+    ignores it.
+    </p>
+    
+    <p>
+    This paragraph
+    contains         a lot of spaces
+    in the source         code,
+    but the        browser
+    ignores it.
+    </p>
+
+HTML Horizontal Rules
+    The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+    
+    The <hr> element is used to separate content (or define a change) in an HTML page:
+
+HTML Line Breaks
+    The HTML <br> element defines a line break.
+    
+    Use <br> if you want a line break (a new line) without starting a new paragraph:
+
+The HTML <pre> Element
+        The HTML <pre> element defines preformatted text.
+        
+        The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+        
+Example
+        <pre>
+          My Bonnie lies over the ocean.
+        
+          My Bonnie lies over the sea.
+        
+          My Bonnie lies over the ocean.
+        
+          Oh, bring back my Bonnie to me.
+        </pre>
+
+The HTML Style Attribute
+        Setting the style of an HTML element, can be done with the style attribute.
+        
+        The HTML style attribute has the following syntax:
+        
+        <tagname style="property:value;">
+
+
+Background Color
+         The CSS background-color property defines the background color for an HTML element.
+            
+ Example
+         Set the background color for a page to powderblue:
+            
+        <body style="background-color:powderblue;">
+            
+        <h1>This is a heading</h1>
+        <p>This is a paragraph.</p>
+          
+Text Alignment
+        The CSS text-align property defines the horizontal text alignment for an HTML element:
+        
+Example
+        <h1 style="text-align:center;">Centered Heading</h1>
+        <p style="text-align:center;">Centered paragraph.</p>    
+        
+Chapter Summary
+
+        Use the style attribute for styling HTML elements
+        Use background-color for background color
+        Use color for text colors
+        Use font-family for text fonts
+        Use font-size for text sizes
+        Use text-align for text alignment
+
+HTML Formatting Elements
+Formatting elements were designed to display special types of text:
+        
+        <b> - Bold text
+        <strong> - Important text
+        <i> - Italic text
+        <em> - Emphasized text
+        <mark> - Marked text
+        <small> - Smaller text
+        <del> - Deleted text
+        <ins> - Inserted text
+        <sub> - Subscript text
+        <sup> - Superscript text
+
+HTML <blockquote> for Quotations
+        The HTML <blockquote> element defines a section that is quoted from another source.
+                
+        Browsers usually indent <blockquote> elements.
+    Example
+            <p>Here is a quote from WWF's website:</p>
+            <blockquote cite="http://www.worldwildlife.org/who/index.html">
+            For 50 years, WWF has been protecting the future of nature.
+            The world's leading conservation organization,
+            WWF works in 100 countries and is supported by
+            1.2 million members in the United States and
+            close to 5 million globally.
+            </blockquote>
+        
+HTML <q> for Short Quotations
+     The HTML <q> tag defines a short quotation.
+                
+     Browsers normally insert quotation marks around the quotation.
+
+HTML <abbr> for Abbreviations
+        The HTML <abbr> tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+        
+        Marking abbreviations can give useful information to browsers, translation systems and search-engines.
+        
+        Tip: Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element. 
+        
+Example
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>    
+    
+HTML <address> for Contact Information
+        The HTML <address> tag defines the contact information for the author/owner of a document or an article.
+        
+        The contact information can be an email address, URL, physical address, phone number, social media handle, etc.
+        
+        The text in the <address> element usually renders in italic, and browsers will always add a line break before and after the <address> element.
+        
+Example
+        <address>
+        Written by John Doe.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+        </address>
+
+HTML <cite> for Work Title
+            The HTML <cite> tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).
+            
+            Note: A person's name is not the title of a work.
+            
+            The text in the <cite> element usually renders in italic.
+
+HTML <bdo> for Bi-Directional Override
+        BDO stands for Bi-Directional Override.
+                    
+        The HTML <bdo> tag is used to override the current text direction:
+
+
+HTML Comment Tag
+        You can add comments to your HTML source by using the following syntax:
+            
+        <!-- Write your comments here -->
+
+
+Border Color
+<h1 style="border:2px solid Tomato;">Hello World</h1>
+<h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+<h1 style="border:2px solid Violet;">Hello World</h1>
+
+Color Values
+    In HTML, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values.
+
+    The following three <div> elements have their background color set with RGB, HEX, and HSL values:
+
+    rgb(255, 99, 71)
+    #ff6347
+    hsl(9, 100%, 64%)
+    The following two <div> elements have their background color set with RGBA and HSLA values, which adds an Alpha channel to the color (here we have 50% transparency):
+  
+RGB Color Values
+        In HTML, a color can be specified as an RGB value, using this formula:
+        
+        rgb(red, green, blue)
+        RGBA Color Values
+        RGBA color values are an extension of RGB color values with an Alpha channel - which specifies the opacity for a color.
+        
+An RGBA color value is specified with:
+        
+        rgba(red, green, blue, alpha)
+        
+        The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all):        
+
+
+==========================================================================================
+CSS
+
+Chapter Summary
+        Use the HTML style attribute for inline styling
+        Use the HTML <style> element to define internal CSS
+        Use the HTML <link> element to refer to an external CSS file
+        Use the HTML <head> element to store <style> and <link> elements
+        Use the CSS color property for text colors
+        Use the CSS font-family property for text fonts
+        Use the CSS font-size property for text sizes
+        Use the CSS border property for borders
+        Use the CSS padding property for space inside the border
+        Use the CSS margin property for space outside the border
+
+
+HTML Links - The target Attribute
+By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.
+
+The target attribute specifies where to open the linked document.
+
+The target attribute can have one of the following values:
+
+_self - Default. Opens the document in the same window/tab as it was clicked
+_blank - Opens the document in a new window or tab
+_parent - Opens the document in the parent frame
+_top - Opens the document in the full body of the window
+----------------------------------------------------------------
+Link to an Email Address
+Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a new email):
+
+Example
+<a href="mailto:someone@example.com">Send email</a>
+   
+----------------------------------------------------------
+Button as a Link
+To use an HTML button as a link, you have to add some JavaScript code.
+
+JavaScript allows you to specify what happens at certain events, such as a click of a button:
+
+Example
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+-------------------------------------------------------
+Chapter Summary
+Use the id attribute (id="value") to define bookmarks in a page
+Use the href attribute (href="#value") to link to the bookmark
+----------------------------------------------------
+Image Size - Width and Height
+You can use the style attribute to specify the width and height of an image.
+
+Example
+<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
+---------------------------------------------------------
+Common Image Formats
+Here are the most common image file types, which are supported in all browsers (Chrome, Edge, Firefox, Safari, Opera):
+
+Abbreviation	File Format	 File Extension
+APNG	Animated Portable Network Graphics	.apng
+GIF	Graphics Interchange Format	.gif
+ICO	Microsoft Icon	.ico, .cur
+JPEG	Joint Photographic Expert Group image	.jpg, .jpeg, .jfif, .pjpeg, .pjp
+PNG	Portable Network Graphics	.png
+SVG	Scalable Vector Graphics	.svg
+--------------------------
+Image Maps
+The HTML <map> tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more <area> tags.
+
+    ex:
+
+    <!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image Maps</h2>
+<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+
+</body>
+</html>
+link=====https://www.w3schools.com/html/html_images_imagemap.asp
+----------------------------------------------------------
+
+
+
+</body>
+
+    
+</body>
+</html>
